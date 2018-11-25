@@ -9,7 +9,7 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-  var element = document 
+  var element = document
                 .getElementById('app')
                 .getElementById('grand-node')
                 .querySelectorAll()
