@@ -9,8 +9,6 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-  var element = document
-                .getElementById('app')
-                .querySelectorAll()
+  var element = document.querySelectorAll('id.app')
   return element
 }
